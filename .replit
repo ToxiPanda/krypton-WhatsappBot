@@ -1,6 +1,6 @@
 language = 'nodejs'
-run = 'pm2 start src/krypton.js --deep-monitoring --attach'
-entrypoint = "src/krypton.js"
+run = 'pm2 start src/queen.js --deep-monitoring --attach'
+entrypoint = "src/queen.js"
 hidden = [".config", "package-lock.json"]
 
 [languages]
@@ -79,4 +79,4 @@ regex = 'Error \[ERR_REQUIRE_ESM\]'
 message = "We see that you are using require(...) inside your code. We currently do not support this syntax. Please use 'import' instead when using external modules. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)"
 
 [deployment]
-run = ["sh", "-c", "node src/krypton.js"]
+run = ["sh", "-c", "node src/queen.js"]
