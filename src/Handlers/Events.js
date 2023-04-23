@@ -14,7 +14,7 @@ module.exports = EventsHandler = async (event, client) => {
             : event.action === 'remove'
             ? `Goodbye *${event.participants
                   .map((jid) => `@${jid.split('@')[0]}`)
-                  .join(', ')}* 👋🏻, we're probably not gonna miss you.`
+                  .join(', ')}* 👋🏻, We're Probably Gonna Miss You. Haha Joke Were Not Miss you`
             : event.action === 'demote'
             ? `Ara Ara, looks like *@${event.participants[0].split('@')[0]}* got Demoted`
             : `Congratulations *@${event.participants[0].split('@')[0]}*, you're now an admin`
