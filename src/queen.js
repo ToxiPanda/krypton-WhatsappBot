@@ -43,7 +43,7 @@ const start = async () => {
     })
 
     //Config
-    client.name = process.env.NAME || 'Krypton'
+    client.name = process.env.NAME || 'Queen Victoria🎶'
     client.prefix = process.env.PREFIX || '!'
     client.writesonicAPI = process.env.WRITE_SONIC || null
     client.bgAPI = process.env.BG_API_KEY || null
