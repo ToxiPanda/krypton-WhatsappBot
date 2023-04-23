@@ -28,7 +28,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Debanjan-San/krypton-WhatsappBot"><b>whatsapp-bot</b></a> out-of-the-box support on...
+  <a href="https://github.com/ToxiPanda/krypton-WhatsappBot"><b>whatsapp-bot</b></a> out-of-the-box support on...
 </p>
 
 <p align="center">
@@ -36,8 +36,8 @@
   <a href="https://railway.app/new/template"><img src="https://img.shields.io/badge/railway-3e164f?style=for-the-badge&logo=railway&logoColor=0B0D0E"></a>
 </p>
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/Debanjan-San/krypton-WhatsappBot/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
-  <a href="https://repl.it/github/Debanjan-San/krypton-WhatsappBot"><img src="https://img.shields.io/badge/replit-253c99?style=for-the-badge&logo=replit&logoColor=F26207"></a>
+  <a href="https://heroku.com/deploy?template=https://github.com/ToxiPanda/krypton-WhatsappBot/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://repl.it/github/ToxiPanda/krypton-WhatsappBot"><img src="https://img.shields.io/badge/replit-253c99?style=for-the-badge&logo=replit&logoColor=F26207"></a>
 </p>
 
 <p align="center">Need help? please create an <a href="https://github.com/Debanjan-San/krypton-WhatsappBot/issues">issues</a></p>
