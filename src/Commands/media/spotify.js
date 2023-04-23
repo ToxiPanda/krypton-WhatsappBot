@@ -5,7 +5,7 @@ module.exports = {
     aliases: ['sp'],
     category: 'media',
     exp: 5,
-    description: 'Downloads given spotify track and sends it as Audio',
+    description: 'Downloads given Spotify Track and Sends it as Audio',
     async execute(client, arg, M) {
         if (!arg) return M.reply('Please use command with a valid youtube.com link')
         const audioSpotify = await spotifydl(arg.trim()).catch((err) => {
