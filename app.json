@@ -1,12 +1,12 @@
 {
-   "name":"Krypton",
+   "name":"Queen Victoria",
    "description":"A WhatsApp Bot With Multi Device Supported",
    "keywords":[
       "bot",
       "whatsapp"
    ],
-   "website":"https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot#readme",
-   "repository":"https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot.git",
+   "website":"https://github.com/ToxiPanda/krypton-WhatsappBot#readme",
+   "repository":"https://github.com/ToxiPanda/krypton-WhatsappBot",
    "logo":"https://i.ibb.co/mzcSXdy/koboo.png",
    "success_url":"/",
    "env":{
