@@ -6,7 +6,7 @@ module.exports = {
     aliases: ['search'],
     category: 'utils',
     exp: 5,
-    description: 'Search topics from google.com',
+    description: 'Search topics from *google.com*',
     async execute(client, arg, M) {
         if (!arg) return M.reply('Sorry you did not give any search term!')
         const res = await axios
@@ -17,7 +17,7 @@ module.exports = {
         if (res.data.items.length == 0) return reply('❌ Unable to find any result')
         const results = res.data.items
 
-        let text = `====GOOGLE SEARCH====\n\n`
+        let text = `====QUEEN VICTORIA GOOGLE SEARCH====\n\n`
         for (const result of results) {
             text += `*Title:* ${result.title}\n`
             text += `*Description:* ${result.snippet}\n`
