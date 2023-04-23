@@ -1,9 +1,9 @@
 {
-   "name": "krypton",
+   "name": "Queen-Victoria",
    "version": "0.0.1",
-   "description": "krytron based on JavaScript",
-   "author": "Debanjan-San",
-   "main": "src/krypton.js",
+   "description": "Queen Victoria Whatsapp Bot Based on JavaScript",
+   "author": "Victoria Team",
+   "main": "src/queen.js",
    "keywords": [
       "Whatsapp",
       "WhatsApp-Bot",
@@ -13,7 +13,7 @@
    "license": "SEE LICENSE IN LICENSE.md",
    "scripts": {
       "format": "prettier --write --config .prettierrc.json \"src/**/*.js\"",
-      "start": "node --optimize_for_size --max_old_space_size=460 src/krypton.js"
+      "start": "node --optimize_for_size --max_old_space_size=460 src/queen.js"
    },
    "bugs": {
       "url": "https://github.com/Debanjan-San/krypton-WhatsappBot/issues"
