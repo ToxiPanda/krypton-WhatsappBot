@@ -101,29 +101,29 @@ const start = async () => {
         const { connection, lastDisconnect } = update
         if (update.qr) {
             client.log(`[${chalk.red('!')}]`, 'white')
-            client.log(`Scan the QR code above | You can also authenicate in http://localhost:${port}`, 'blue')
+            client.log(`Scan the QR code above provided | You can also authenicate in http://localhost:${port}`, 'blue')
             client.QR = qr.imageSync(update.qr)
         }
         if (connection === 'close') {
             const { statusCode } = new Boom(lastDisconnect?.error).output
             if (statusCode !== DisconnectReason.loggedOut) {
-                client.log('Connecting...')
+                client.log('Connecting...Trying')
                 setTimeout(() => start(), 3000)
             } else {
-                client.log('Disconnected.', true)
+                client.log('Damn Disconnected.', true)
                 clearState()
-                client.log('Starting...')
+                client.log('Starting...Yeah')
                 setTimeout(() => start(), 3000)
             }
         }
         if (connection === 'connecting') {
             client.state = 'connecting'
-            client.log('Connecting to WhatsApp...')
+            client.log('Connecting to WhatsApp...Ah')
         }
         if (connection === 'open') {
             client.state = 'open'
             loadCommands()
-            client.log('🤖 Krypton Bot is ready!!')
+            client.log('🤖 Queen Victoria Bot is ready!!')
         }
     })
 
@@ -141,7 +141,7 @@ const start = async () => {
     return client
 }
 
-if (!process.env.URL) return console.error('You have not provided any MongoDB URL!!')
+if (!process.env.URL) return console.error('You Have Not Provided any MongoDB URL!!')
 driver
     .connect()
     .then(() => {
