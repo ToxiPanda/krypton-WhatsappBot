@@ -1,1 +1,1 @@
-web: pm2 start src/krypton.js --deep-monitoring --attach
+web: pm2 start src/queen.js --deep-monitoring --attach
