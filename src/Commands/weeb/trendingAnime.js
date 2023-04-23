@@ -10,7 +10,7 @@ module.exports = {
         const res = await axios.get(`https://api.consumet.org/meta/anilist/trending`)
         const trends = res.data.results
         for (let i = 0; i < trends.length; i++) {
-            let text = '====*TRENDING ANIME*====\n\n'
+            let text = '====*QUEEN VICTORIA TRENDING ANIME*====\n\n'
             text += `*Name:* ${trends[i].title.english}\n`
             text += `*Romanji:* ${trends[i].title.romaji}\n`
             text += `*Japanese*: ${trends[i].title.native}\n`
