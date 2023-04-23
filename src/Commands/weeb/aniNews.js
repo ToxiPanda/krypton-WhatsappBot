@@ -14,7 +14,7 @@ module.exports = {
                     image: {
                         url: news[i].thumbnail
                     },
-                    caption: `=====ANIME-NEWS=====\n*Title*: ${news[i].title}\n*ID*: ${news[i].id}\n*Topics*: ${news[
+                    caption: `=====QUEEN-VICTORIA-ANIME-NEWS=====\n*Title*: ${news[i].title}\n*ID*: ${news[i].id}\n*Topics*: ${news[
                         i
                     ].topics
                         .toString()
