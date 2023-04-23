@@ -5,7 +5,7 @@ module.exports = {
     exp: 0,
     description: 'Will make a broadcast for groups where the bot is in. Can be used to make announcements',
     async execute(client, arg, M) {
-        if (!arg) return M.reply('No query provided!')
+        if (!arg) return M.reply('~No~ query provided!')
         const getGroups = await client.groupFetchAllParticipating()
         const groups = Object.entries(getGroups)
             .slice(0)
