@@ -12,7 +12,7 @@ module.exports = {
             if (arg.split('/')[0] == 'https:' && arg.split('/')[2] == 'yugen.to' && arg.split('/')[3] == 'anime' && arg.split('/')[6] == 'watch') {
                 const res = await axios.get(`https://yogapi.debanjan-san.repl.co/anime/info?link=${arg}`)
                 if (!res.data) return M.reply('404 Error could not find the given term')
-                let text = '========*ANIME*========\n\n'
+                let text = '========*QUEEN VICTORIA ANIME*========\n\n'
                 text += `*Name:* ${res.data.name}\n`
                 text += `*Native:* ${res.data.native}\n`
                 text += `*Studio:* ${res.data.studio}\n`
@@ -20,7 +20,7 @@ module.exports = {
                 text += `*Status:* ${res.data.status}\n`
                 text += `*Premired:* ${res.data.premired}\n`
                 text += `*Genres:* ${res.data.genres}\n`
-                text += `*Desc:* ${res.data.about}\n\n========*EPISORDS*========\n`
+                text += `*Desc:* ${res.data.about}\n\n========*VICTORIA EPISORDS*========\n`
 
                 res.data.episodes.forEach(element => {
                     text += `*EP:* ${element.id}\n`
